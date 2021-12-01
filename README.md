@@ -1,4 +1,4 @@
-Factory reset Ruckus APs via the CLI
+** **Factory reset Ruckus APs via the CLI** **
 
 Requires the following python2 modules:
 
@@ -9,13 +9,13 @@ logging
 multiprocessing
 time
 
-install them via pip2 install <module>
+install them via **pip2 install <module>**
 
 
 
-usage: ap-reset-multi.py [-h] filepath username password
+**usage: ap-reset-multi.py [-h] filepath username password**
 
-filepath is the path to a file containing the IP address of each AP to reset in the following format:
+**filepath** is the path to a file containing the IP address of each AP to reset in the following format:
 
 192.168.1.2
 192.168.1.3
