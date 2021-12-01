@@ -2,12 +2,12 @@
 
 Requires the following python2 modules:
 
-pexpect
-sys
-argparse
-logging
-multiprocessing
-time
+pexpect<br/>
+sys<br/>
+argparse<br/>
+logging<br/>
+multiprocessing<br/>
+time<br/>
 
 install them via **pip2 install <module>**
 
@@ -18,9 +18,9 @@ install them via **pip2 install <module>**
 
 *filepath* is the path to a file containing the IP address of each AP to reset in the following format:
 
-192.168.1.2
-192.168.1.3
-192.168.1.4
+192.168.1.2<br/>
+192.168.1.3<br/>
+192.168.1.4<br/>
 
 username and pass is the AP CLI username and password (not the SZ credentials) 
 
